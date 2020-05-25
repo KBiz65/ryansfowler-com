@@ -1,0 +1,239 @@
+* {
+  font-size: 62.5%; /* 1rem == 10px */
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Cabin", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 1rem 0 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.nav_list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.ryan_logo a {
+  margin-left: 0px;
+  font-family: Cabin, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #00717f;
+}
+
+.ryan_logo a:hover {
+  color: #019da8;
+}
+
+.nav_about a {
+  margin-right: 0px;
+  font-family: Cabin, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #00717f;
+  letter-spacing: 1px;
+}
+
+.nav_about a:hover {
+  color: #019da8;
+}
+
+.welcome_container {
+  margin-top: 9.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.welcome {
+  font-family: Cabin, sans-serif;
+  color: #00717f;
+  font-size: 6.875rem;
+  font-weight: 400;
+  line-height: 8rem;
+  margin-top: 8rem;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+.welcome_tagline {
+  margin-top: 4rem;
+  margin-bottom: 0;
+  font-family: Cabin, sans-serif;
+  color: #1f1d1d;
+  font-size: 3.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.welcome_tagline .ryan_name {
+  color: #00717f;
+  font-weight: bold;
+}
+
+.welcome_body {
+  margin-top: 2.8rem;
+  color: #616161;
+  font-family: Cabin, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.projects_container {
+  margin-top: 24rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.project_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.project_1 .project_1_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  height: auto;
+  background-color: #cce2e5;
+  padding: 1.6rem;
+  border: 2px solid #cce2e5;
+  border-radius: 10px;
+}
+
+.project_1_img img {
+  width: 50%;
+  height: auto;
+}
+
+.project_1_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 55%;
+  padding: 0 2.4rem;
+}
+
+.project_1_info .project_1_title {
+  margin: 0;
+  font-family: Cabin, sans-serif;
+  font-size: 6.4rem;
+  font-weight: 400;
+  color: #1f1d1d;
+}
+
+.project_1_info .project_1_description {
+  margin: 0;
+  padding: 1.6rem 0;
+  font-family: Cabin, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #616161;
+}
+
+.project_1_info .project_1_button {
+  border: 0px;
+  background-color: #fff;
+  padding: 1.6rem 0;
+}
+
+.project_1_info .project_1_button a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  background-color: #00717f;
+  border: 5px solid #00717f;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.project_1_info .project_1_button a:hover {
+  text-decoration: none;
+  color: #00717f;
+  background-color: #fff;
+}
+
+.footer_container {
+  margin: 24rem 0 2rem 0;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_container .footer_copyright {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+  font-family: Cabin, sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.footer_container .footer_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.footer_container .footer_links .footer_links_list {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_container .footer_links .footer_links_list li {
+  font-family: Cabin, sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer_container .footer_links .footer_links_list a {
+  text-decoration: none;
+  color: #00717f;
+}
+
+.footer_container .footer_links .footer_links_list a:hover {
+  text-decoration: none;
+  color: #019da8;
+}
