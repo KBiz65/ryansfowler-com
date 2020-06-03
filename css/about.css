@@ -88,13 +88,18 @@ body {
   white-space: normal;
 }
 
-.intro_text .intro_resume {
+.intro_text a {
   padding-top: 4rem;
-  text-decoration: underline;
+  text-decoration: none;
   color: #00717f;
   font-family: Muli, sans-serif;
   font-weight: 700;
   font-size: 2.4rem;
+}
+
+.intro_text a:hover {
+  text-decoration: none;
+  color: #019da8;
 }
 
 .intro .about_image {
