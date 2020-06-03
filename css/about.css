@@ -29,7 +29,7 @@ body {
 }
 
 .ryan_logo a {
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
   text-decoration: none;
@@ -42,7 +42,7 @@ body {
 
 .nav_about a {
   margin-right: 0px;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   text-decoration: none;
@@ -68,11 +68,11 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 35%;
+  width: 40%;
 }
 
 .intro_title {
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 4.8rem;
   font-weight: 400;
   line-height: 1rem;
@@ -81,7 +81,7 @@ body {
 .intro_tagline {
   margin-top: 2rem;
   color: #616161;
-  font-family: "Cabin", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 2.4rem;
   line-height: 3.2rem;
   font-weight: 400;
@@ -92,7 +92,7 @@ body {
   padding-top: 4rem;
   text-decoration: underline;
   color: #00717f;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-weight: 700;
   font-size: 2.4rem;
 }
@@ -105,7 +105,7 @@ body {
 }
 
 .intro .about_image img {
-  width: 90%;
+  width: 95%;
   height: auto;
 }
 
@@ -186,7 +186,7 @@ body {
 }
 
 .story_container .my_story .story_title {
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 4.8rem;
   font-weight: 700;
   margin: 0;
@@ -194,7 +194,7 @@ body {
 
 .story_container .my_story .story_body {
   margin-top: 2.4rem;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 2rem;
   font-weight: 400;
   color: #616161;
@@ -203,7 +203,7 @@ body {
 
 .story_container .my_story .story_body strong {
   margin-top: 2.4rem;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: #616161;
@@ -222,7 +222,7 @@ body {
 
 .story_container .story_stuff .stuff_title {
   margin: 0;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 4.8rem;
   font-weight: 700;
   color: #616161;
@@ -239,13 +239,13 @@ body {
 .story_container .story_stuff .stuff_box {
   display: flex;
   flex-direction: column;
-  width: 24%;
+  width: 23%;
   height: auto;
 }
 
 .story_container .story_stuff .stuff_box .stuff_box_text {
-  font-family: Cabin, sans-serif;
-  font-size: 2.8rem;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
   font-weight: 700;
 }
 
@@ -265,7 +265,7 @@ body {
 
 .contact_container .contact_tagline {
   margin: 0;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 2.4rem;
   color: #616161;
   font-weight: 400;
@@ -273,7 +273,7 @@ body {
 
 .contact_container a {
   margin: 2rem 0 0 0;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 2.75rem;
   color: #00717f;
   font-weight: 700;
@@ -298,7 +298,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   width: 50%;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 1.2rem;
   line-height: 2rem;
 }
@@ -321,7 +321,7 @@ body {
 }
 
 .footer_container .footer_links .footer_links_list li {
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 1.5rem;
 }
 

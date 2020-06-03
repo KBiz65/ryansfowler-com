@@ -4,12 +4,12 @@
 }
 
 html {
-  font-family: "Cabin", sans-serif;
+  font-family: "Muli", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
 
 body {
-  margin: 1rem 0 0 0;
+  margin-top: 1rem;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@ body {
 
 .ryan_logo a {
   margin-left: 0px;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
   text-decoration: none;
@@ -48,7 +48,7 @@ body {
 
 .nav_about a {
   margin-right: 0px;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   text-decoration: none;
@@ -70,7 +70,7 @@ body {
 }
 
 .welcome {
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   color: #00717f;
   font-size: 6.875rem;
   font-weight: 400;
@@ -83,7 +83,7 @@ body {
 .welcome_tagline {
   margin-top: 4rem;
   margin-bottom: 0;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   color: #1f1d1d;
   font-size: 3.2rem;
   font-weight: 400;
@@ -92,13 +92,16 @@ body {
 
 .welcome_tagline .ryan_name {
   color: #00717f;
-  font-weight: bold;
+  font-family: Muli, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .welcome_body {
   margin-top: 2.8rem;
   color: #616161;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
   letter-spacing: 1px;
@@ -109,7 +112,7 @@ body {
   margin-top: 24rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 50%;
 }
@@ -118,14 +121,14 @@ body {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .project_1 .project_1_img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35%;
+  width: 40%;
   height: auto;
   background-color: #cce2e5;
   padding: 1.6rem;
@@ -134,7 +137,7 @@ body {
 }
 
 .project_1_img img {
-  width: 50%;
+  width: 45%;
   height: auto;
 }
 
@@ -144,12 +147,12 @@ body {
   align-items: flex-start;
   justify-content: center;
   width: 55%;
-  padding: 0 2.4rem;
+  padding: 0;
 }
 
 .project_1_info .project_1_title {
   margin: 0;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 6.4rem;
   font-weight: 400;
   color: #1f1d1d;
@@ -158,7 +161,7 @@ body {
 .project_1_info .project_1_description {
   margin: 0;
   padding: 1.6rem 0;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
   color: #616161;
@@ -173,10 +176,11 @@ body {
 .project_1_info .project_1_button a {
   text-decoration: none;
   color: #fff;
+  font-family: Muli, sans-serif;
   padding: 0.8rem 1.6rem;
   font-size: 1.6rem;
   background-color: #00717f;
-  border: 5px solid #00717f;
+  border: 2px solid #00717f;
   border-radius: 10px;
   font-weight: 700;
 }
@@ -188,7 +192,7 @@ body {
 }
 
 .footer_container {
-  margin: 24rem 0 2rem 0;
+  margin: 12rem 0 2rem 0;
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -201,7 +205,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   width: 50%;
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 1.2rem;
   line-height: 2rem;
 }
@@ -224,7 +228,7 @@ body {
 }
 
 .footer_container .footer_links .footer_links_list li {
-  font-family: Cabin, sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 1.5rem;
 }
 
