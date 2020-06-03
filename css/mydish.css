@@ -1,0 +1,2078 @@
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.nav_list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.ryan_logo a {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #00717f;
+}
+
+.ryan_logo a:hover {
+  color: #019da8;
+}
+
+.nav_about a {
+  margin-right: 0px;
+  font-family: Muli, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #00717f;
+  letter-spacing: 1px;
+}
+
+.nav_about a:hover {
+  color: #019da8;
+}
+
+.mydish_container {
+  margin: 8rem 0 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mydish_container .mydish_header {
+  margin: 0;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container .mydish_header .mydish_header_text_container {
+  margin: 0;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mydish_container
+  .mydish_header
+  .mydish_header_text_container
+  .mydish_header_title {
+  margin: 3rem 0 0 0;
+  font-family: Muli, sans-serif;
+  font-size: 11rem;
+  line-height: 8rem;
+  font-weight: 400;
+  color: #00717f;
+}
+
+.mydish_container
+  .mydish_header
+  .mydish_header_text_container
+  .mydish_header_body {
+  margin: 5rem 0 0 0;
+  font-family: Muli, sans-serif;
+  color: #616161;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.mydish_container
+  .mydish_header
+  .mydish_header_text_container
+  .mydish_project_overview {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mydish_container
+  .mydish_header
+  .mydish_header_text_container
+  .mydish_project_overview
+  .mydish_project_overview_title {
+  margin: 6rem 0 0 0;
+  font-family: Muli, sans-serif;
+  font-size: 4.4rem;
+  line-height: 7rem;
+  font-weight: 400;
+  color: #1a1b1f;
+}
+
+.mydish_container
+  .mydish_header
+  .mydish_header_text_container
+  .mydish_project_overview
+  .mydish_project_overview_body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mydish_container
+  .mydish_header
+  .mydish_header_text_container
+  .mydish_project_overview
+  .mydish_project_overview_body
+  .mydish_project_overview_body_header {
+  width: 15%;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 400;
+  color: #616161;
+}
+
+.mydish_container
+  .mydish_header
+  .mydish_header_text_container
+  .mydish_project_overview
+  .mydish_project_overview_body
+  .mydish_project_overview_body_text {
+  width: 85%;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 400;
+  color: #616161;
+}
+
+.mydish_container .mydish_header img {
+  width: 35%;
+  height: auto;
+  align-self: center;
+}
+
+.mydish_container .starting_project {
+  margin-top: 10rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mydish_container .starting_project .starting_text {
+  font-family: Muli, sans-serif;
+  font-size: 3.8rem;
+  font-weight: 400;
+  color: #616161;
+  text-align: center;
+}
+
+.mydish_container .starting_project img {
+  margin-top: 3rem;
+  width: 100%;
+  height: auto;
+}
+
+.mydish_container .whats_mydish_container {
+  margin-top: 10rem;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: stretch;
+  flex-wrap: wrap;
+}
+
+.mydish_container .whats_mydish_container .whats_mydish_text {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mydish_container
+  .whats_mydish_container
+  .whats_mydish_text
+  .whats_mydish_title {
+  width: 100%;
+  margin: 0 0 4rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 400;
+}
+
+.mydish_container
+  .whats_mydish_container
+  .whats_mydish_text
+  .whats_mydish_body {
+  width: 100%;
+  margin-top: 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #616161;
+  line-height: 3.2rem;
+}
+
+.mydish_container .whats_mydish_container .initial_stages {
+  width: 100%;
+  margin: 4rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mydish_container
+  .whats_mydish_container
+  .initial_stages
+  .initial_stages_images {
+  width: 100%;
+  margin: 0 0 4rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .whats_mydish_container
+  .initial_stages
+  .initial_stages_images
+  img {
+  width: 23%;
+  height: auto;
+}
+
+.mydish_container .whats_mydish_container .initial_stages .initial_stages_text {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mydish_container
+  .whats_mydish_container
+  .initial_stages
+  .initial_stages_text
+  .initial_stages_body {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #616161;
+  line-height: 3.2rem;
+}
+
+.mydish_container
+  .whats_mydish_container
+  .initial_stages
+  .initial_stages_text
+  .initial_stages_body
+  strong {
+  width: 100%;
+  margin: 0 0 2rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #616161;
+}
+
+.mydish_container .pleasurable_mydish_container {
+  margin-top: 10rem;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mydish_container .pleasurable_mydish_container .pleasurable_mydish_title {
+  width: 100%;
+  margin: 0 0 4rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 6.2rem;
+}
+
+.mydish_container
+  .pleasurable_mydish_container
+  .pleasurable_mydish_title
+  strong {
+  font-family: Muli, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+
+.mydish_container .pleasurable_mydish_container .pleasurable_mydish_image {
+  width: 20%;
+  height: auto;
+}
+
+.mydish_container .pleasurable_mydish_container .pleasurable_mydish_body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 70%;
+}
+
+.mydish_container
+  .pleasurable_mydish_container
+  .pleasurable_mydish_body
+  .pleasurable_mydish_text {
+  margin: 0 0 4rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .pleasurable_mydish_container
+  .pleasurable_mydish_body
+  .pleasurable_mydish_text
+  strong {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #616161;
+}
+
+.mydish_container .pleasurable_mydish_container .pleasurable_mydish_body_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.mydish_container
+  .pleasurable_mydish_container
+  .pleasurable_mydish_body_cont
+  .pleasurable_mydish_text {
+  margin: 0 0 4rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .pleasurable_mydish_container
+  .pleasurable_mydish_body_cont
+  .pleasurable_mydish_text
+  strong {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #616161;
+}
+
+.mydish_container .pleasurable_mydish_container .pleasurable_client_meeting {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.mydish_container
+  .pleasurable_mydish_container
+  .pleasurable_client_meeting
+  .pleasurable_client_meeting_header {
+  width: 100%;
+  margin-top: 8rem;
+  font-family: Muli, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  color: #616161;
+  text-align: center;
+}
+
+.mydish_container
+  .pleasurable_mydish_container
+  .pleasurable_client_meeting
+  .pleasurable_client_meeting_image {
+  width: 100%;
+  height: auto;
+}
+
+.mydish_container .mydish_client_initial_feedback_container {
+  margin-top: 4rem;
+  padding: 3rem 0;
+  background-color: rgba(0, 113, 127, 0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mydish_container
+  .mydish_client_initial_feedback_container
+  .initial_feedback_text_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.mydish_container
+  .mydish_client_initial_feedback_container
+  .client_initial_feedback_highlighted {
+  width: 100%;
+  margin: 0 0 3rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .mydish_client_initial_feedback_container
+  .client_initial_feedback_highlighted
+  strong {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.mydish_container .finding_container {
+  margin-top: 10rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.mydish_container .finding_container .finding_title {
+  width: 100%;
+  margin: 0 0 4rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 6.2rem;
+}
+
+.mydish_container .finding_container .finding_body {
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container .finding_container .finding_body strong {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #616161;
+}
+
+.mydish_container .finding_jumping_off_image {
+  width: 100%;
+  height: auto;
+  margin: 4rem 0 8rem 0;
+}
+
+.mydish_container .finding_interview_image {
+  width: 100%;
+  height: auto;
+  margin: 4rem 0 0 0;
+}
+
+.mydish_container .finding_survey_screen_image {
+  width: 100%;
+  height: auto;
+  margin: 4rem 0 0 0;
+  border: 1px solid black;
+}
+
+.mydish_container .finding_highlighted_container {
+  margin-top: 4rem;
+  padding: 3rem 0;
+  background-color: rgba(0, 113, 127, 0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mydish_container .finding_highlighted_user_comment {
+  width: 50%;
+  margin: 2rem 0 0 0;
+  font-family: Muli, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  color: #616161;
+  text-align: center;
+}
+
+.mydish_container .finding_highlighted_user_name {
+  width: 50%;
+  font-family: Muli, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  color: #616161;
+  text-align: center;
+}
+
+.mydish_container .people_spoke_container {
+  margin-top: 10rem;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mydish_container .people_spoke_container .people_spoke_title {
+  width: 100%;
+  margin: 0 0 4rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 6.2rem;
+}
+
+.mydish_container .people_spoke_container .people_spoke_body {
+  margin: 6rem 0 0 0;
+  width: 75%;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container .people_spoke_container .people_spoke_image {
+  width: 25%;
+  height: auto;
+}
+
+.mydish_container .people_spoke_container .people_spoke_body strong {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #616161;
+}
+
+.mydish_container .people_spoke_container .people_spoke_body_cont {
+  margin: 0;
+  width: 100%;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container .people_spoke_container .people_spoke_body_cont strong {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #616161;
+}
+
+.mydish_container .new_flow_container {
+  margin-top: 10rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.mydish_container .new_flow_container .new_flow_title {
+  width: 100%;
+  margin: 0 0 4rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 6.2rem;
+}
+
+.mydish_container .new_flow_container .new_flow_body {
+  margin: 0;
+  width: 100%;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+.mydish_container .new_flow_container .new_flow_old_wireframe_image {
+  width: 100%;
+  height: auto;
+  margin: 4rem 0 0 0;
+}
+
+.mydish_container .new_flow_highlighted_container {
+  margin-top: 6rem;
+  padding: 3rem 0;
+  background-color: rgba(0, 113, 127, 0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mydish_container .new_flow_highlighted_container .new_flow_50pct_width {
+  width: 50%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.mydish_container
+  .new_flow_highlighted_container
+  .new_flow_50pct_width
+  .new_flow_highlighted_body {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+  text-align: flex-start;
+}
+
+.mydish_container
+  .new_flow_highlighted_container
+  .new_flow_50pct_width
+  .new_flow_highlighted_features {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+.mydish_container
+  .new_flow_highlighted_container
+  .new_flow_50pct_width
+  .new_flow_highlighted_features
+  .new_flow_highlighted_text_and_ul_container {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mydish_container
+  .new_flow_highlighted_container
+  .new_flow_50pct_width
+  .new_flow_highlighted_features
+  .new_flow_highlighted_text_and_ul_container
+  .new_flow_highlighted_features_text {
+  width: 100%;
+  margin: 0 0 3rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .new_flow_highlighted_container
+  .new_flow_50pct_width
+  .new_flow_highlighted_features
+  .new_flow_highlighted_text_and_ul_container
+  .new_flow_highlighted_features_ul {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mydish_container
+  .new_flow_highlighted_container
+  .new_flow_50pct_width
+  .new_flow_highlighted_features
+  .new_flow_highlighted_text_and_ul_container
+  .new_flow_highlighted_features_ul
+  li {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .new_flow_highlighted_container
+  .new_flow_50pct_width
+  .new_flow_highlighted_features
+  .new_flow_highlighted_features_images_container {
+  width: 50%;
+  margin: 3rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mydish_container
+  .new_flow_highlighted_container
+  .new_flow_50pct_width
+  .new_flow_highlighted_features
+  .new_flow_highlighted_features_images_container
+  img {
+  width: 30%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container .new_flow_container_cont {
+  margin-top: 6rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.mydish_container .new_flow_container_cont .new_flow_container_body {
+  width: 100%;
+  margin: 0 0 4rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container .new_flow_container_cont .new_flow_container_body strong {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .new_flow_accessible_images_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .new_flow_accessible_images_container
+  img {
+  width: 30%;
+  height: auto;
+  margin: 0 0 4rem 0;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .new_flow_design_decisions_images_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .new_flow_design_decisions_images_container
+  .new_flow_design_ul_container {
+  width: 40%;
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .new_flow_design_decisions_images_container
+  .new_flow_design_ul_container
+  .design_input_ul_header {
+  width: 100%;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+  text-align: left;
+}
+.mydish_container
+  .new_flow_container_cont
+  .new_flow_design_decisions_images_container
+  .design_input_ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .new_flow_design_decisions_images_container
+  .design_input_ul
+  li {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .new_flow_design_decisions_images_container
+  img {
+  width: 25%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container .new_flow_container_cont .design_input {
+  width: 100%;
+  margin: 6rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: center;
+}
+
+.mydish_container .new_flow_container_cont .design_input .design_input_text {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .design_input
+  .design_input_text
+  strong {
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .design_input
+  .in-line_editing_images_container {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .design_input
+  .in-line_editing_images_container
+  img {
+  width: 23%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container .new_flow_container_cont .design_input .design_editing_text {
+  width: 100%;
+  margin: 6rem 0 0 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .design_input
+  .design_editing_text
+  strong {
+  width: 100%;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .design_input
+  .button_mode_images_container {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .new_flow_container_cont
+  .design_input
+  .button_mode_images_container
+  img {
+  width: 23%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container .design_journey_container {
+  margin-top: 10rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.mydish_container .design_journey_container .design_journey_title {
+  width: 100%;
+  margin: 0 0 4rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 6.2rem;
+}
+
+.mydish_container .design_journey_container .design_journey_body {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container .design_journey_container .design_journey_body strong {
+  width: 100%;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_header {
+  width: 100%;
+  margin: 4rem 0 0 0;
+  font-family: Muli, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_draft_images {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_draft_images
+  .draft_image1_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_draft_images
+  .draft_image1_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_draft_images
+  .draft_image1_and_caption
+  .image1_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_draft_images
+  .draft_image2_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_draft_images
+  .draft_image2_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_draft_images
+  .draft_image2_and_caption
+  .image2_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_draft_images
+  .draft_image3_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_draft_images
+  .draft_image3_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_draft_images
+  .draft_image3_and_caption
+  .image3_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_final_images {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_final_images
+  .final_image_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_final_images
+  .final_image_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_home_page_container
+  .design_home_page_final_images
+  .final_image_and_caption
+  .final_image_home_screen_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+  text-align: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_header {
+  width: 100%;
+  margin: 4rem 0 0 0;
+  font-family: Muli, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_draft_images {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_draft_images
+  .draft_cookbook_image1_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_draft_images
+  .draft_cookbook_image1_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_draft_images
+  .draft_cookbook_image1_and_caption
+  .cookbook_image1_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_draft_images
+  .draft_cookbook_image2_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_draft_images
+  .draft_cookbook_image2_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_draft_images
+  .draft_cookbook_image2_and_caption
+  .cookbook_image2_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_draft_images
+  .draft_cookbook_image3_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_draft_images
+  .draft_cookbook_image3_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_draft_images
+  .draft_cookbook_image3_and_caption
+  .cookbook_image3_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_final_images {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_final_images
+  .final_cookbook_image_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_final_images
+  .final_cookbook_image_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_cookbook_page_container
+  .design_cookbook_page_final_images
+  .final_cookbook_image_and_caption
+  .final_cookbook_image_screen_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+  text-align: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_header {
+  width: 100%;
+  margin: 4rem 0 0 0;
+  font-family: Muli, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_draft_images {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_draft_images
+  .draft_recipe_image1_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_draft_images
+  .draft_recipe_image1_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_draft_images
+  .draft_recipe_image1_and_caption
+  .recipe_image1_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_draft_images
+  .draft_recipe_image2_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_draft_images
+  .draft_recipe_image2_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_draft_images
+  .draft_recipe_image2_and_caption
+  .recipe_image2_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_draft_images
+  .draft_recipe_image3_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_draft_images
+  .draft_recipe_image3_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_draft_images
+  .draft_recipe_image3_and_caption
+  .recipe_image3_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_final_images {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_final_images
+  .final_recipe_image_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_final_images
+  .final_recipe_image_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_recipe_page_container
+  .design_recipe_page_final_images
+  .final_recipe_image_and_caption
+  .final_recipe_image_screen_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+  text-align: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_header {
+  width: 100%;
+  margin: 4rem 0 0 0;
+  font-family: Muli, sans-serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_draft_images {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_draft_images
+  .draft_create_edit_image1_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_draft_images
+  .draft_create_edit_image1_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_draft_images
+  .draft_create_edit_image1_and_caption
+  .create_edit_image1_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_draft_images
+  .draft_create_edit_image2_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_draft_images
+  .draft_create_edit_image2_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_draft_images
+  .draft_create_edit_image2_and_caption
+  .create_edit_image2_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_draft_images
+  .draft_create_edit_image3_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_draft_images
+  .draft_create_edit_image3_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_draft_images
+  .draft_create_edit_image3_and_caption
+  .create_edit_image3_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_final_images {
+  width: 100%;
+  margin: 2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_final_images
+  .final_create_edit_image_and_caption {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_final_images
+  .final_create_edit_image_and_caption
+  img {
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mydish_container
+  .design_journey_container
+  .design_journey_mydish_create_edit_page_container
+  .design_create_edit_page_final_images
+  .final_create_edit_image_and_caption
+  .final_create_edit_image_screen_caption {
+  width: 100%;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #616161;
+  text-align: center;
+}
+
+.mydish_container .key_findings_container {
+  margin-top: 10rem;
+  width: 100%;
+  background-color: rgba(0, 113, 127, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.mydish_container .key_findings_container .key_findings_info_container {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.mydish_container
+  .key_findings_container
+  .key_findings_info_container
+  .key_findings_title {
+  width: 100%;
+  margin: 2rem 0 4rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 6.2rem;
+}
+
+.mydish_container
+  .key_findings_container
+  .key_findings_info_container
+  .key_findings_results_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mydish_container
+  .key_findings_container
+  .key_findings_info_container
+  .key_findings_results_container
+  .key_findings_body {
+  width: 100%;
+  height: 8rem;
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .key_findings_container
+  .key_findings_info_container
+  .key_findings_results_container
+  img {
+  width: 35%;
+  height: auto;
+}
+
+.mydish_container
+  .key_findings_container
+  .key_findings_info_container
+  .key_findings_results_container
+  .key_findings_ul {
+  width: 65%;
+  padding: 0 5rem;
+}
+
+.mydish_container
+  .key_findings_container
+  .key_findings_info_container
+  .key_findings_results_container
+  .key_findings_ul
+  li {
+  margin: 0 0 2rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container
+  .key_findings_container
+  .key_findings_info_container
+  .key_findings_results_container
+  .key_findings_ul
+  li
+  strong {
+  margin: 0;
+  font-family: Muli, sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #616161;
+}
+
+.mydish_container .contact_container {
+  margin-top: 10rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mydish_container .contact_container .work_together {
+  margin: 0 0 2rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 4.6rem;
+  color: #000;
+}
+
+.mydish_container .contact_container .work_together .work_together_color {
+  margin: 0 0 2rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 4.6rem;
+  color: #00717f;
+}
+
+.mydish_container .contact_container .contact_body {
+  margin: 0 0 2rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #000;
+}
+
+.mydish_container .contact_container .email_link {
+  margin: 0 0 2rem 0;
+  font-family: Muli, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 6.4rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.mydish_container .contact_container .back_to_top_button {
+  margin: 5rem;
+  border: 0px;
+  background-color: #fff;
+  padding: 1.6rem 0;
+}
+
+.mydish_container .contact_container .back_to_top_button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Muli, sans-serif;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  background-color: #00717f;
+  border: 2px solid #00717f;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.mydish_container .contact_container .back_to_top_button a:hover {
+  text-decoration: none;
+  color: #00717f;
+  background-color: #fff;
+}
+
+.footer_container {
+  margin: 12rem 0 2rem 0;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_container .footer_copyright {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50%;
+  font-family: Muli, sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.footer_container .footer_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.footer_container .footer_links .footer_links_list {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_container .footer_links .footer_links_list li {
+  font-family: Muli, sans-serif;
+  font-size: 1.5rem;
+}
+
+.footer_container .footer_links .footer_links_list a {
+  text-decoration: none;
+  color: #00717f;
+}
+
+.footer_container .footer_links .footer_links_list a:hover {
+  text-decoration: none;
+  color: #019da8;
+}

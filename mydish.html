@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryan S Fowler Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="images/ryan-favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/mydish.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="body">
+    <a id="my_dish_top"></a>
+    <nav class="navbar">
+      <ul class="nav_list">
+        <li class="ryan_logo"><a href="index.html">Ryan S Fowler</a></li>
+        <li class="nav_about"><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="mydish_container">
+      <header class="mydish_header">
+        <div class="mydish_header_text_container">
+          <h1 class="mydish_header_title">MyDish</h1>
+          <div class="mydish_header_body">
+            Home cooks have forever been scribbling in cookbooks, often handed
+            down through generations. Many family dishes have gone the way of
+            the dodo because of a lack of reliable, and legible, recipe
+            versions.<br />
+            Enter, MyDish.
+          </div>
+          <div class="mydish_project_overview">
+            <h2 class="mydish_project_overview_title">Project Overview</h2>
+            <div class="mydish_project_overview_body">
+              <div class="mydish_project_overview_body_header">
+                Time: <br />
+                Team: <br />
+              </div>
+              <div class="mydish_project_overview_body_text">
+                7 weeks <br />
+                4 Data Scientists, 4 Web Developers, <br />
+                2 UX Designers
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="images/MyDish-home-revised.png"
+          alt="Screenshot of MyDish app home screen"
+          class="my_dish_home_screenshot"
+        />
+      </header>
+
+      <div class="starting_project">
+        <div class="starting_text">
+          So there we were, at the edge of a new adventure in making apps.
+          <br />
+          <br />
+          Apps to help people save recipes, modify them, keep notes, and become
+          better cooks.
+        </div>
+        <img
+          src="images/Stakeholder-zoom-2.PNG"
+          alt="Zoom meeting screenshot"
+          class="starting_img"
+        />
+      </div>
+
+      <div class="whats_mydish_container">
+        <div class="whats_mydish_text">
+          <h2 class="whats_mydish_title">🍲 What's a heckin' MyDish anyway?</h2>
+          <p class="whats_mydish_body">MyDish is an app that stores recipes.</p>
+          <p class="whats_mydish_body">
+            Cooks can record, browse, copy, modify, save, and refer back to each
+            version of a recipe.
+          </p>
+          <p class="whats_mydish_body">
+            This solves the problem of people scribbling in their cookbooks, not
+            able to keep track of their recipes and the different versions they
+            come up with. It also allows for a community to grow and share their
+            favorite dishes.
+          </p>
+        </div>
+        <div class="initial_stages">
+          <div class="initial_stages_images">
+            <img
+              src="images/MyDish-Old-home.png"
+              alt="Initial homepage screenshot"
+              class="initial_stages_one"
+            />
+            <img
+              src="images/Screenshot_2020-03-18-08-47-41-2.png"
+              alt="Initial create recipe pagescreenshot"
+              class="initial_stages_two"
+            />
+            <img
+              src="images/Screenshot_2020-03-18-08-47-58-2.png"
+              alt="Initial My Cookbook page screenshot"
+              class="initial_stages_three"
+            />
+            <img
+              src="images/MyDish-View-Recipe-old.png"
+              alt="Initial recipe view page"
+              class="initial_stages_four"
+            />
+          </div>
+          <div class="initial_stages_text">
+            <p class="initial_stages_body">
+              In its initial stages, the functionality of the app was minimal.
+            </p>
+            <p class="initial_stages_body">
+              Users could not upload photos, inputting recipes was a tedious
+              process, and the navigation felt
+              <strong>clunky and unfinished</strong>.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pleasurable_mydish_container">
+        <h2 class="pleasurable_mydish_title">
+          🤔 How might we make recipe input <strong>pleasurable</strong>?
+        </h2>
+        <img
+          src="images/Frustrated.png"
+          alt="Frustrated woman on phone"
+          class="pleasurable_mydish_image"
+        />
+        <div class="pleasurable_mydish_body">
+          <p class="pleasurable_mydish_text">
+            Inputting a whole recipe piece by piece sucks and takes a lot of
+            time.
+          </p>
+          <p class="pleasurable_mydish_text">
+            As a team we thought there should be some kind of
+            <strong>ingredient prediction</strong> and/or
+            <strong>autocomplete</strong> to help cooks input recipes quickly
+            and efficiently.
+          </p>
+          <p class="pleasurable_mydish_text">
+            That would solve the issue of home cooks
+            <strong>not returning</strong> to MyDish because of the tedium of
+            slow input.
+          </p>
+        </div>
+        <div class="pleasurable_mydish_body_cont">
+          <p class="pleasurable_mydish_text">
+            📷 We also focused on <strong>content moderation</strong> to prevent
+            people from inputting and uploading inappropriate images or words to
+            recipes, as well as the ability to <strong>upload images</strong> in
+            the first place.
+            <br />
+            <br />
+            👀 Lastly, the UI was good, but not great yet, and it needed some
+            upgrades to help the users get though
+            <strong>creating, editing, and viewing</strong>
+            their recipes.
+          </p>
+        </div>
+        <div class="pleasurable_client_meeting">
+          <h3 class="pleasurable_client_meeting_header">
+            Then this meeting happened with the client.
+          </h3>
+          <img
+            src="images/stakeholder-zoom-1.PNG"
+            alt="Zoom meeting screenshot with many attendees"
+            class="pleasurable_client_meeting_image"
+          />
+        </div>
+      </div>
+
+      <div class="mydish_client_initial_feedback_container">
+        <div class="initial_feedback_text_container">
+          <p class="client_initial_feedback_highlighted">
+            The client stated that before we worried about users inputting
+            <strong>inappropriate content</strong>, we need to get and
+            <strong>keep cooks</strong>.
+            <br />
+            <br />
+            We cut content moderation and focused on making sure that cooks
+            would want to <strong>use and keep using MyDish</strong>.
+            <br />
+            <br />
+            We put emphasis on assisting home cooks in
+            <strong>creating and editing recipes</strong> as much as possible.
+          </p>
+        </div>
+      </div>
+
+      <div class="finding_container">
+        <h2 class="finding_title">🕵️ Finding where to look.</h2>
+        <p class="finding_body">
+          We sifted through the previous team's research and used our findings
+          as a <strong>jumping off point</strong>.
+        </p>
+        <img
+          src="images/Past-PVD-2.PNG"
+          alt="Screenshot of product vision documents"
+          class="finding_jumping_off_image"
+        />
+        <p class="finding_body">
+          After discovering our gaps in knowledge regarding the goals we had for
+          the app, we started filling those gaps.
+          <br />
+          <br />
+          We interviewed several potential users and spread a survey to gather
+          more insight.
+        </p>
+        <img
+          src="images/MyDish-Interview-dee-screen.PNG"
+          alt="Zoom screenshot chat with potential user and Ryan"
+          class="finding_interview_image"
+        />
+        <img
+          src="images/MyDish-Survey-Screen.PNG"
+          alt="Screenshot of the survey screen statistics"
+          class="finding_survey_screen_image"
+        />
+      </div>
+
+      <div class="finding_highlighted_container">
+        <p class="finding_highlighted_user_comment">
+          “Sadly, [when I save a recipe] it’s old school. So if I like a recipe
+          and I know that I’m going to use it a lot, I have an old notebook that
+          I keep family recipes in, ... I handwrite them to keep them.”
+        </p>
+        <p class="finding_highlighted_user_name">- Dee Jacobpito</p>
+      </div>
+
+      <div class="people_spoke_container">
+        <h2 class="people_spoke_title">📣 The people spoke.</h2>
+        <p class="people_spoke_body">
+          <strong>Our key finding</strong> was that people really do scribble in
+          the margins of old cookbooks often, and the reason that they haven't
+          digitized their recipes is basically because
+          <strong>it sucks typing recipes</strong> and there is
+          <strong>no way to keep notes</strong> on variations of their family
+          favorites.
+        </p>
+        <img
+          src="images/app-assemply-vector.png"
+          alt="man standing in front of large cellphone"
+          class="people_spoke_image"
+        />
+        <p class="people_spoke_body_cont">
+          <br />
+          This information <strong>validated our direction</strong> and so we
+          got to work making the app that MyDish deserved to be.
+        </p>
+      </div>
+
+      <div class="new_flow_container">
+        <h2 class="new_flow_title">🤷‍♂️ What does this new flow look like?</h2>
+        <p class="new_flow_body">
+          We digested the existing wireframes to research what the previous
+          designers experimented with in their explorations.
+          <br />
+          <br />
+          The team and client were wanting new ways to display information, so I
+          hit the drawing board.
+        </p>
+        <img
+          src="images/Previous-wireframes.PNG"
+          alt="A screenshot of the old wireframe"
+          class="new_flow_old_wireframe_image"
+        />
+      </div>
+
+      <div class="new_flow_highlighted_container">
+        <div class="new_flow_50pct_width">
+          <p class="new_flow_highlighted_body">
+            Making the flow to create recipes as easy as possible was definitely
+            a challenge, but I was lucky to have the rest of the team working on
+            some really cool features to speed up the input process
+            exponentially.
+          </p>
+          <div class="new_flow_highlighted_features">
+            <div class="new_flow_highlighted_text_and_ul_container">
+              <p class="new_flow_highlighted_features_text">
+                Features such as:
+              </p>
+              <ul class="new_flow_highlighted_features_ul">
+                <li>Image upload</li>
+                <li>Intelligent autocomplete</li>
+                <li>Ingredient suggestions</li>
+                <li>Recipe image parsing with automatic input</li>
+              </ul>
+            </div>
+            <div class="new_flow_highlighted_features_images_container">
+              <img
+                src="images/Create-Recipe-and-Image-Upload-Wireframe-3.png"
+                alt="Wireframe images"
+                class="new_flow_image2"
+              />
+              <img
+                src="images/Create-Recipe-and-Image-Upload-Wireframe-2.png"
+                alt="Wireframe images"
+                class="new_flow_image3"
+              />
+              <img
+                src="images/Create-Recipe-and-Image-Upload-Wireframe-4.png"
+                alt="Wireframe images"
+                class="new_flow_image4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="new_flow_container_cont">
+        <p class="new_flow_container_body">
+          I highlighted those features while giving the app some new
+          <strong>flavor</strong>, and making it <strong>accessible</strong>.
+        </p>
+        <div class="new_flow_accessible_images_container">
+          <img
+            src="images/Create-Recipe-and-Image-Upload-Wireframe-5.png"
+            alt="Screenshot of original flow picture 1"
+            class="new_flow_accessible_image1"
+          />
+          <img
+            src="images/Create-Recipe-and-Image-Upload-Wireframe-6.png"
+            alt="Screenshot of original flow picture 2"
+            class="new_flow_accessible_image2"
+          />
+          <img
+            src="images/Create-Recipe-and-Image-Upload-Wireframe-8.png"
+            alt="Screenshot of original flow picture 3"
+            class="new_flow_accessible_image3"
+          />
+        </div>
+        <p class="new_flow_container_body">
+          Input from the team, client, colleagues, and potential users
+          <strong>steered</strong> several
+          <strong>design decisions</strong> such as the suggested ingredients
+          list, the autocomplete, the cuisine buttons, and the edit screen.
+        </p>
+        <div class="new_flow_design_decisions_images_container">
+          <div class="new_flow_design_ul_container">
+            <p class="design_input_ul_header">Input such as:</p>
+            <ul class="design_input_ul">
+              <li>A warm color direction</li>
+              <li>Categorical buttons for types of cuisine</li>
+              <li>The way the suggested ingredients list would work</li>
+            </ul>
+          </div>
+          <img
+            src="images/Copy-recipe-3-mid-wire.png"
+            alt="Copy recipe screenshot"
+            class="design_decisions_image1"
+          />
+          <img
+            src="images/Copy-recipe-7-mid-wire.png"
+            alt="Updated version of copy recipe screenshot"
+            class="design_decisions_image1"
+          />
+        </div>
+        <div class="design_input">
+          <p class="design_input_text">
+            We designed for <strong>in-line editing</strong> of recipes at the
+            client's initial request.
+          </p>
+          <div class="in-line_editing_images_container">
+            <img
+              src="images/View-recipe-ingredients-tab-6.png"
+              alt="In-line editing ingredients screenshot image1"
+              class="in_line_editing_image1"
+            />
+            <img
+              src="images/View-recipe-ingredients-tab-7.png"
+              alt="In-line editing ingredients screenshot image2"
+              class="in_line_editing_image2"
+            />
+            <img
+              src="images/View-recipe-steps-tab-7.png"
+              alt="In-line editing steps screenshot image3"
+              class="in_line_editing_image3"
+            />
+            <img
+              src="images/View-recipe-steps-tab-8.png"
+              alt="In-line editing steps screenshot image4"
+              class="in_line_editing_image4"
+            />
+          </div>
+          <p class="design_editing_text">
+            However, upon usability testing, it was obvious that
+            <strong>cooks would struggle</strong> with knowing that they could
+            tap on information to edit it.
+            <br />
+            <br />
+            We decided that it would be best to have a
+            <strong>button</strong> and specific mode for editing recipes.
+          </p>
+          <div class="button_mode_images_container">
+            <img
+              src="images/View-recipe-ingredients-tab-12.png"
+              alt="Screenshot with button to edit text on app"
+              class="button_mode_image1"
+            />
+            <img
+              src="images/View-recipe-steps-tab-13.png"
+              alt="Second screenshot with button to edit text on app"
+              class="button_mode_image2"
+            />
+            <img
+              src="images/Edit-Recipe-New.png"
+              alt="Third screenshot with button to edit text on app"
+              class="button_mode_image3"
+            />
+            <img
+              src="images/Edit-Recipe-New-1.png"
+              alt="Fourth screenshot with button to edit text on app"
+              class="button_mode_image4"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="design_journey_container">
+        <h2 class="design_journey_title">🧙 The design journey.</h2>
+        <p class="design_journey_body">
+          Changing the app to a design system that made more sense took a lot of
+          <strong>incremental steps</strong>. <br /><br />
+          Here are some of those steps and the final results.
+        </p>
+        <div class="design_journey_mydish_home_page_container">
+          <h3 class="design_home_page_header">MyDish home page:</h3>
+          <div class="design_home_page_draft_images">
+            <div class="draft_image1_and_caption">
+              <img
+                src="images/Screenshot_2020-04-13-11-09-08-2.png"
+                alt="Screenshot of previous home screen"
+                class="draft_image1"
+              />
+              <p class="image1_caption">Previous home screen.</p>
+            </div>
+            <div class="draft_image2_and_caption">
+              <img
+                src="images/MyDish-Homepage-Wireframe.png"
+                alt="Screenshot of first ideas"
+                class="draft_image2"
+              />
+              <p class="image2_caption">First major ideas.</p>
+            </div>
+            <div class="draft_image3_and_caption">
+              <img
+                src="images/MyDish-Homepage-Carousel.png"
+                alt="Screenshot of future iteration"
+                class="draft_image3"
+              />
+              <p class="image3_caption">Futher iteration based on feedback.</p>
+            </div>
+          </div>
+          <div class="design_home_page_final_images">
+            <div class="final_image_and_caption">
+              <img
+                src="images/MyDish-Homepage-Updated.png"
+                alt="Screenshot of the final home screen for the app"
+                class="final_home_screen_image"
+              />
+              <p class="final_image_home_screen_caption">
+                Final home screen design.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="design_journey_mydish_cookbook_page_container">
+          <h3 class="design_cookbook_page_header">My Cookbook page:</h3>
+          <div class="design_cookbook_page_draft_images">
+            <div class="draft_cookbook_image1_and_caption">
+              <img
+                src="images/Screenshot_2020-03-18-08-47-58-2_1.png"
+                alt="Screenshot of previous my cookbook page"
+                class="draft_cookbook_image1"
+              />
+              <p class="cookbook_image1_caption">Previous My Cookbook page.</p>
+            </div>
+            <div class="draft_cookbook_image2_and_caption">
+              <img
+                src="images/MyDish-Cookbook-iteration-1.png"
+                alt="Screenshot of redesigned My Cookbook page idea"
+                class="draft_cookbook_image2"
+              />
+              <p class="cookbook_image2_caption">My Cookbook redesign idea.</p>
+            </div>
+            <div class="draft_cookbook_image3_and_caption">
+              <img
+                src="images/Mydish-Cookbook-Iteration-3.png"
+                alt="Screenshot of My Cookbook page with additional size and spacing changes."
+                class="cookbook_draft_image3"
+              />
+              <p class="cookbook_image3_caption">
+                Increased size, spacing, and functions.
+              </p>
+            </div>
+          </div>
+          <div class="design_cookbook_page_final_images">
+            <div class="final_cookbook_image_and_caption">
+              <img
+                src="images/MyDish-Cookbook-New.png"
+                alt="Screenshot of the final My cookbook screen for the app"
+                class="final_cookbook_screen_image"
+              />
+              <p class="final_cookbook_image_screen_caption">
+                Final My Cookbook page design.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="design_journey_mydish_recipe_page_container">
+          <h3 class="design_recipe_page_header">View recipe page:</h3>
+          <div class="design_recipe_page_draft_images">
+            <div class="draft_recipe_image1_and_caption">
+              <img
+                src="images/Screenshot_2020-04-13-11-08-16-2.png"
+                alt="Screenshot of previous my recipe page"
+                class="draft_recipe_image1"
+              />
+              <p class="recipe_image1_caption">Previous view recipe page.</p>
+            </div>
+            <div class="draft_recipe_image2_and_caption">
+              <img
+                src="images/MyDish-View-Recipe-Wire-1.png"
+                alt="Screenshot of redesigned view recipe page idea"
+                class="draft_recipe_image2"
+              />
+              <p class="recipe_image2_caption">View recipe redesign ideas.</p>
+            </div>
+            <div class="draft_recipe_image3_and_caption">
+              <img
+                src="images/View-recipe-tab-3.png"
+                alt="Screenshot of view recipe page with additional size and spacing changes."
+                class="recipe_draft_image3"
+              />
+              <p class="recipe_image3_caption">
+                Adding color, tabs, and correct sizing.
+              </p>
+            </div>
+          </div>
+          <div class="design_recipe_page_final_images">
+            <div class="final_recipe_image_and_caption">
+              <img
+                src="images/View-recipe-ingredients-tab-8-clean.png"
+                alt="Screenshot of the final view recipe screen for the app"
+                class="final_recipe_screen_image"
+              />
+              <p class="final_recipe_image_screen_caption">
+                Final My recipe page design.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="design_journey_mydish_create_edit_page_container">
+          <h3 class="design_create_edit_page_header">
+            Create/Edit recipe page:
+          </h3>
+          <div class="design_create_edit_page_draft_images">
+            <div class="draft_create_edit_image1_and_caption">
+              <img
+                src="images/Create-recipe-original.png"
+                alt="Screenshot of previous create and edit recipe page"
+                class="draft_create_edit_image1"
+              />
+              <p class="create_edit_image1_caption">
+                Previous create recipe page.
+              </p>
+            </div>
+            <div class="draft_create_edit_image2_and_caption">
+              <img
+                src="images/MyDish-Copy-recipe-wire.png"
+                alt="Screenshot of redesigned create and edit recipe page idea"
+                class="draft_create_edit_image2"
+              />
+              <p class="create_edit_image2_caption">
+                First round of redesign ideas.
+              </p>
+            </div>
+            <div class="draft_create_edit_image3_and_caption">
+              <img
+                src="images/MyDish-Create-Recipe-iteration.png"
+                alt="Screenshot of create and edit recipe page with additional size and spacing changes."
+                class="create_edit_draft_image3"
+              />
+              <p class="create_edit_image3_caption">
+                Unified style and better functionality.
+              </p>
+            </div>
+          </div>
+          <div class="design_create_edit_page_final_images">
+            <div class="final_create_edit_image_and_caption">
+              <img
+                src="images/MyDish-Create-Recipe-final-2.png"
+                alt="Screenshot of the final create and edit recipe screen for the app"
+                class="final_create_edit_screen_image"
+              />
+              <p class="final_create_edit_image_screen_caption">
+                Final create recipe page design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="key_findings_container">
+        <div class="key_findings_info_container">
+          <h2 class="key_findings_title">🔑 Key findings.</h2>
+          <div class="key_findings_results_container">
+            <p class="key_findings_body">
+              Here are a few important results that I found by working on
+              MyDish.
+            </p>
+            <img
+              src="images/Key-Results-illustration.png"
+              alt="Mobile phone icon with people happily jumping near it"
+              class="key_findings_image"
+            />
+            <ul class="key_findings_ul">
+              <li>
+                Building onto a project that has already had the
+                <strong>groundwork laid out</strong> presents different
+                <strong>exciting challenges</strong> than a start from scratch.
+              </li>
+              <li>
+                The <strong>team is everything</strong>, because without the
+                other incredible people working on this project, the results
+                would not have been quite as <strong>amazing</strong>.
+              </li>
+              <li>
+                Simple, straightforward, and clean design helps to
+                <strong>convey information</strong> as effectively as possible
+                to any user base.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact_container">
+        <h3 class="work_together">
+          Want to work <a class="work_together_color">together</a>?
+        </h3>
+        <p class="contact_body">
+          If you like what you see and want to work together, get in touch!
+        </p>
+        <a
+          href="mailto:ryan.s.fowler87@gmail.com?subject=Portfolio%20Clicks!"
+          class="email_link"
+          >Ryan.S.Fowler87@gmail.com</a
+        >
+        <button class="back_to_top_button">
+          <a href="#my_dish_top">Back to top</a>
+        </button>
+      </div>
+    </div>
+    <footer class="footer_container">
+      <div class="footer_copyright">&copy;Copyright Ryan Fowler 2020</div>
+      <div class="footer_links">
+        <ul class="footer_links_list">
+          <li>
+            <a href="mailto:ryan.s.fowler@gmail.com?subject=Portfolio%20Clicks!"
+              >Email</a
+            >
+          </li>
+          <li>
+            <a href="https://dribbble.com/ryan_s_fowler" target="_blank"
+              >Dribbble</a
+            >
+          </li>
+          <li>
+            <a href="https://twitter.com/Ryan_s_fowler" target="_blank"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ryan-fowler-05205323/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://medium.com/@ryan_s_fowler" target="_blank"
+              >Medium</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
