@@ -16,7 +16,7 @@ body {
   width: 50%;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .nav_list {
@@ -28,31 +28,59 @@ body {
   padding: 0;
 }
 
+.ryan_logo {
+  display: flex;
+  width: 80%;
+}
+
 .ryan_logo a {
-  margin-left: 0px;
   font-family: Muli, sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
   text-decoration: none;
-  color: #00717f;
+  color: #f26b38;
 }
 
 .ryan_logo a:hover {
-  color: #019da8;
+  opacity: 50%;
 }
 
+.nav_work {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_work a {
+  font-family: Muli, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #f26b38;
+  letter-spacing: 1px;
+}
+
+.nav_work a:hover {
+  opacity: 50%;
+}
+
+.nav_about {
+  display: flex;
+  justify-content: flex-end;
+  width: 10%;
+}
 .nav_about a {
   margin-right: 0px;
   font-family: Muli, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   text-decoration: none;
-  color: #00717f;
+  color: #f26b38;
   letter-spacing: 1px;
 }
 
 .nav_about a:hover {
-  color: #019da8;
+  opacity: 50%;
 }
 
 .resume_container {
@@ -112,10 +140,46 @@ body {
 
 .footer_container .footer_links .footer_links_list a {
   text-decoration: none;
-  color: #00717f;
+  color: #f26b38;
 }
 
 .footer_container .footer_links .footer_links_list a:hover {
   text-decoration: none;
-  color: #019da8;
+  opacity: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .nav_list {
+    width: 100%;
+  }
+
+  .ryan_logo {
+    width: 70%;
+  }
+
+  .nav_work {
+    width: 10%;
+  }
+
+  .nav_about {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .resume_container {
+    width: 95%;
+  }
+
+  .footer_container {
+    width: 90%;
+  }
 }

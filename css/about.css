@@ -28,30 +28,59 @@ body {
   padding: 0;
 }
 
+.ryan_logo {
+  display: flex;
+  width: 80%;
+}
+
 .ryan_logo a {
   font-family: Muli, sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
   text-decoration: none;
-  color: #00717f;
+  color: #f26b38;
 }
 
 .ryan_logo a:hover {
-  color: #019da8;
+  opacity: 50%;
 }
 
+.nav_work {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_work a {
+  font-family: Muli, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #f26b38;
+  letter-spacing: 1px;
+}
+
+.nav_work a:hover {
+  opacity: 50%;
+}
+
+.nav_about {
+  display: flex;
+  justify-content: flex-end;
+  width: 10%;
+}
 .nav_about a {
   margin-right: 0px;
   font-family: Muli, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   text-decoration: none;
-  color: #00717f;
+  color: #f26b38;
   letter-spacing: 1px;
 }
 
 .nav_about a:hover {
-  color: #019da8;
+  opacity: 50%;
 }
 
 .intro {
@@ -91,7 +120,7 @@ body {
 .intro_text a {
   padding-top: 4rem;
   text-decoration: none;
-  color: #00717f;
+  color: #f26b38;
   font-family: Muli, sans-serif;
   font-weight: 700;
   font-size: 2.4rem;
@@ -99,7 +128,7 @@ body {
 
 .intro_text a:hover {
   text-decoration: none;
-  color: #019da8;
+  opacity: 50%;
 }
 
 .intro .about_image {
@@ -230,7 +259,7 @@ body {
   font-family: Muli, sans-serif;
   font-size: 4.8rem;
   font-weight: 700;
-  color: #616161;
+  color: #000000
   width: 100%;
 }
 
@@ -251,7 +280,8 @@ body {
 .story_container .story_stuff .stuff_box .stuff_box_text {
   font-family: Muli, sans-serif;
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 400;
+  color: #616161;
 }
 
 .story_container .story_stuff .stuff_box img {
@@ -280,15 +310,16 @@ body {
   margin: 2rem 0 0 0;
   font-family: Muli, sans-serif;
   font-size: 2.75rem;
-  color: #00717f;
+  color: #f26b38;
   font-weight: 700;
   text-decoration: none;
 }
 
 .contact_container a:hover {
   text-decoration: none;
-  color: #019da8;
+  opacity: 50%;
 }
+
 .footer_container {
   margin: 12rem 0 2rem 0;
   width: 50%;
@@ -332,10 +363,10 @@ body {
 
 .footer_container .footer_links .footer_links_list a {
   text-decoration: none;
-  color: #00717f;
+  color: #f26b38;
 }
 
 .footer_container .footer_links .footer_links_list a:hover {
   text-decoration: none;
-  color: #019da8;
+  opacity: 50%;
 }
