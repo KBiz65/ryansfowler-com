@@ -464,7 +464,7 @@ body {
 .mydish_container .mydish_client_initial_feedback_container {
   margin-top: 4rem;
   padding: 3rem 0;
-  background-color: rgba(0, 113, 127, 0.1);
+  background-color: rgba(242, 107, 56, 0.25);
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -561,7 +561,7 @@ body {
 .mydish_container .finding_highlighted_container {
   margin-top: 4rem;
   padding: 3rem 0;
-  background-color: rgba(0, 113, 127, 0.1);
+  background-color: rgba(242, 107, 56, 0.25);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -685,7 +685,7 @@ body {
 .mydish_container .new_flow_highlighted_container {
   margin-top: 6rem;
   padding: 3rem 0;
-  background-color: rgba(0, 113, 127, 0.1);
+  background-color: rgba(242, 107, 56, 0.25);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1882,7 +1882,7 @@ body {
 .mydish_container .key_findings_container {
   margin-top: 10rem;
   width: 100%;
-  background-color: rgba(0, 113, 127, 0.1);
+  background-color: rgba(242, 107, 56, 0.25);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1908,6 +1908,7 @@ body {
   font-size: 4.4rem;
   font-weight: 400;
   line-height: 6.2rem;
+  color: #000;
 }
 
 .mydish_container
@@ -2054,7 +2055,7 @@ body {
   justify-content: flex-start;
   width: 50%;
   font-family: Muli, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 
@@ -2075,12 +2076,10 @@ body {
   justify-content: space-between;
 }
 
-.footer_container .footer_links .footer_links_list li {
+.footer_container .footer_links .footer_links_list a {
   font-family: Muli, sans-serif;
   font-size: 1.5rem;
-}
-
-.footer_container .footer_links .footer_links_list a {
+  line-height: 2rem;
   text-decoration: none;
   color: #f26b38;
 }
@@ -2431,7 +2430,7 @@ body {
   .mydish_container .finding_highlighted_container {
     margin-top: 4rem;
     padding: 3rem 0;
-    background-color: rgba(0, 113, 127, 0.1);
+    background-color: rgba(242, 107, 56, 0.25);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -2555,7 +2554,7 @@ body {
   .mydish_container .new_flow_highlighted_container {
     margin-top: 6rem;
     padding: 3rem 0;
-    background-color: rgba(0, 113, 127, 0.1);
+    background-color: rgba(242, 107, 56, 0.25);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -3755,7 +3754,7 @@ body {
   .mydish_container .key_findings_container {
     margin-top: 10rem;
     width: 100%;
-    background-color: rgba(0, 113, 127, 0.1);
+    background-color: rgba(242, 107, 56, 0.25);
     display: flex;
     flex-direction: row;
     align-items: flex-start;

@@ -335,7 +335,7 @@ body {
   justify-content: flex-start;
   width: 50%;
   font-family: Muli, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 
@@ -356,12 +356,10 @@ body {
   justify-content: space-between;
 }
 
-.footer_container .footer_links .footer_links_list li {
+.footer_container .footer_links .footer_links_list a {
   font-family: Muli, sans-serif;
   font-size: 1.5rem;
-}
-
-.footer_container .footer_links .footer_links_list a {
+  line-height: 2rem;
   text-decoration: none;
   color: #f26b38;
 }
