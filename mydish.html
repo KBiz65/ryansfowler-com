@@ -6,6 +6,11 @@
     <title>Ryan S Fowler Portfolio</title>
     <link rel="shortcut icon" type="image/png" href="images/ryan-favicon.png" />
     <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/general/ryan-favicon.png"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
@@ -25,38 +30,18 @@
       </ul>
     </nav>
 
-    <div class="mydish_container">
-      <header class="mydish_header">
-        <div class="mydish_header_text_container">
-          <h1 class="mydish_header_title">
-            Finally, all of your recipes in one easy to read place!
-          </h1>
-          <div class="mydish_header_body">
-            Home cooks have forever been scribbling in cookbooks, often handed
-            down through generations. Many family dishes have gone the way of
-            the dodo because of a lack of reliable, and legible, recipe
-            versions.<br />
-            Enter, MyDish.
-          </div>
-          <div class="mydish_project_overview">
-            <h2 class="mydish_project_overview_title">Project Overview</h2>
-            <div class="mydish_project_overview_body">
-              <div class="mydish_project_overview_body_header">
-                Time: <br />
-                Team: <br />
-              </div>
-              <div class="mydish_project_overview_body_text">
-                7 weeks <br />
-                4 Data Scientists, 4 Web Developers, <br />
-                2 UX Designers
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="main-container">
+      <div class="rowWidth30Pct">
+        <h3 class="caseStudyTitle">The mobile cookbook.</h3>
+        <p class="caseStudySummary">
+          <a class="redHighlight">MyDish</a> is a mobile app to finally organize your recipes and find new ones without any hassle.
+        </p>
+      </div>
+      <div class="rowWidth625Pct">
         <img
-          src="images/MyDish-home-revised.png"
-          alt="Screenshot of MyDish app home screen"
-          class="my_dish_home_screenshot"
+          src="images/mydish/01_MDHero.svg"
+          alt="MyDish app screenshot"
+          class="appMainScreenshot"
         />
       </header>
 
@@ -67,12 +52,6 @@
           <br />
           Apps to help people save recipes, modify them, keep notes, and become
           better cooks.
-        </div>
-        <img
-          src="images/Stakeholder-zoom-2.PNG"
-          alt="Zoom meeting screenshot"
-          class="starting_img"
-        />
       </div>
 
       <div class="whats_mydish_container">
@@ -152,29 +131,50 @@
             slow input.
           </p>
         </div>
-        <div class="pleasurable_mydish_body_cont">
-          <p class="pleasurable_mydish_text">
-            📷 We also focused on <strong>content moderation</strong> to prevent
-            people from inputting and uploading inappropriate images or words to
-            recipes, as well as the ability to <strong>upload images</strong> in
-            the first place.
-            <br />
-            <br />
-            👀 Lastly, the UI was good, but not great yet, and it needed some
-            upgrades to help the users get though
-            <strong>creating, editing, and viewing</strong>
-            their recipes.
-          </p>
-        </div>
+
+      <div class="rowWidth30Pct">
+        <div class="twoColContainer">
+          <div class="col1">
+            <div class="colHeader">Some opportunities:</div>
+            <ul class="colUl">
+              <li class="colListItem">
+                It wasn’t clear how projects were created or assigned to the
+                technicians.
+              </li>
+              <li class="colListItem">
+                One could not easily tell what current the status of the
+                projects were.
+              </li>
+              <li class="colListItem">
+                What could the dashboard look like for all the various levels of
+                permissions?
+              </li>
+            </ul>
+            <div class="colHeader">Client Needs:</div>
+            <ul class="colUl">
+              <li class="colListItem">
+                The client needed super admin ability to manage the entire
+                system.
+              </li>
+              <li class="colListItem">
+                Representatives from contracted companies need to be able to add
+                projects and assign technicians.
+              </li>
+              <li class="colListItem">
+                Technicians need limited access but all users need to be able to
+                use the full technician flow.
+              </li>
+            </ul>
+          </div>
         <div class="pleasurable_client_meeting">
           <h3 class="pleasurable_client_meeting_header">
             Then this meeting happened with the client.
           </h3>
           <img
-            src="images/stakeholder-zoom-1.PNG"
-            alt="Zoom meeting screenshot with many attendees"
-            class="pleasurable_client_meeting_image"
-          />
+              src="images/schematic/03_SCUserFlowsNoShadow.svg"
+              alt="Schematic Capture user flows"
+              class="col2Image"
+            />
         </div>
       </div>
 
