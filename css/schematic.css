@@ -98,8 +98,8 @@ body {
   font-weight: 700;
 }
 
-.redHighlight {
-  color: #d2291f;
+.blueHighlight {
+  color: #3079bc;
 }
 
 .rowWidth625Pct {
@@ -133,7 +133,7 @@ body {
   text-align: center;
 }
 
-.caseStudySummary > .redHighlight {
+.caseStudySummary > .blueHighlight {
   font-family: "Muli", sans-serif;
   font-size: 1.6rem;
   line-height: 2rem;
