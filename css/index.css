@@ -1,0 +1,264 @@
+* {
+  font-size: 62.5%; /* 1rem == 10px */
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Lora", serif;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar {
+  margin-top: 2.4rem;
+  display: flex;
+  width: 62.5%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_list {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.ryan_logo {
+  width: 65%;
+  align-self: flex-start;
+}
+
+.ryan_logo a {
+  font-family: "Lora", serif;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #f26b38;
+}
+
+.ryan_logo a:hover {
+  opacity: 50%;
+}
+
+.nav_work a {
+  font-family: Muli, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #f26b38;
+}
+
+.nav_work a:hover {
+  opacity: 50%;
+}
+
+.nav_about a {
+  margin-right: 0px;
+  font-family: Muli, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #f26b38;
+  align-self: flex-end;
+}
+
+.nav_about a:hover {
+  opacity: 50%;
+}
+
+.main-container {
+  width: 100%;
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rowWidth44Pct {
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: flex-start;
+}
+
+.rowWidth30Pct {
+  width: 30%;
+}
+
+header {
+  width: 100%;
+  font-family: "Lora", serif;
+  font-size: 6.4rem;
+  line-height: 8.2rem;
+  font-weight: 600;
+  color: #f26b38;
+  text-align: center;
+}
+
+.who_is_ryan {
+  width: 100%;
+  font-family: "Muli", sans-serif;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  color: #2a2a2a;
+  text-align: center;
+}
+
+.big_name {
+  font-family: "Lora", sans-serif;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  font-weight: 600;
+  color: #f26b38;
+}
+
+.gray_text {
+  font-family: "Muli", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 300;
+  color: #808080;
+  text-align: center;
+}
+
+.projects_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.project_display {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rowWidth44Pct a > img {
+  width: 100%;
+  margin-top: 9.6rem;
+}
+
+.rowWidth44Pct:first-child a > img {
+  width: 100%;
+  margin-top: 16rem;
+}
+
+.project_subtitle {
+  margin-top: 3.6rem;
+  font-family: "Muli", sans-serif;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+.project_caption {
+  width: 100%;
+  margin-top: 1.6rem;
+  font-family: "Muli", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 300;
+  color: #808080;
+}
+
+.project_caption > .bold {
+  font-family: "Muli", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 600;
+  color: #808080;
+}
+
+.project_page_link {
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.project_page_link a {
+  font-family: "Lora", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+  color: #f26b38;
+  text-decoration: none;
+}
+
+.project_page_link img {
+  margin-left: 5px;
+  vertical-align: baseline;
+}
+
+.footer_container {
+  margin: 12rem 0 2rem 0;
+  width: 62.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_copyright {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 60%;
+  font-family: Muli, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #f26b38;
+}
+
+.footer_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+
+.footer_links_list {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_links_list a {
+  text-decoration: none;
+  color: #f26b38;
+}
+
+.footer_links_list a:hover {
+  text-decoration: none;
+  opacity: 50%;
+}
+
+.footer_links_list a img {
+  max-width: 1.5rem;
+}

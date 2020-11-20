@@ -6,7 +6,7 @@
 html {
   font-family: "Muli", sans-serif;
   font-family: "Montserrat", sans-serif;
-  font-family: "Neuton", serif;
+  font-family: "Lora", serif;
 }
 
 body {
@@ -15,10 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.bold {
-  font-weight: 700;
+  justify-content: flex-start;
 }
 
 .navbar {
@@ -45,7 +42,7 @@ body {
 }
 
 .ryan_logo a {
-  font-family: "Neuton", sans-serif;
+  font-family: "Lora", serif;
   font-size: 2.4rem;
   line-height: 3rem;
   font-weight: 700;
@@ -94,16 +91,16 @@ body {
   justify-content: center;
 }
 
-.bold {
-  font-weight: 700;
-}
-
 .redHighlight {
   color: #d2291f;
 }
 
 .rowWidth625Pct {
   width: 62.5%;
+}
+
+.rowWidth625Pct > img {
+  width: 100%;
 }
 
 .rowWidth44Pct {
@@ -119,6 +116,7 @@ body {
   font-family: "Muli", sans-serif;
   font-size: 3.6rem;
   line-height: 4.2rem;
+  color: #2a2a2a;
   text-align: center;
 }
 
@@ -166,6 +164,7 @@ body {
   font-family: "Muli", sans-serif;
   font-size: 4.8rem;
   line-height: 5.625rem;
+  color: #2a2a2a;
 }
 
 .sectionHeader {
@@ -175,6 +174,7 @@ body {
   font-size: 3.6rem;
   line-height: 4.2rem;
   text-align: left;
+  color: #2a2a2a;
 }
 
 .rowWidth44Pct > img {
@@ -214,6 +214,7 @@ body {
   font-family: "Muli", sans-serif;
   font-size: 2.4rem;
   line-height: 2.8rem;
+  color: #2a2a2a;
 }
 
 .colHeader:first-child {
@@ -223,7 +224,6 @@ body {
 .colUl {
   width: 100%;
   margin-top: 2.4rem;
-  list-style-position: inside;
 }
 
 .colListItem {
@@ -244,12 +244,6 @@ body {
 .col2 > img {
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.15);
   object-fit: contain;
-}
-
-.col2 > img:hover {
-  transform: scale(2);
-  background: white;
-  border-radius: 5px;
 }
 
 .captions {
@@ -274,16 +268,11 @@ body {
   object-fit: cover;
 }
 
-.rowWidth30Pct > img:hover,
-.researchImage > img:hover {
-  transform: scale(2);
-  background: white;
-  border-radius: 5px;
-}
-
 .researchImage > img {
   margin-top: 6.4rem;
   margin-bottom: 1.6rem;
+  width: 100%;
+  height: auto;
 }
 
 .funSideNote > img {
@@ -320,7 +309,7 @@ ul.colUl.illuminations {
 }
 
 .contact-container {
-  margin-top: 10rem;
+  margin-top: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -365,12 +354,11 @@ ul.colUl.illuminations {
 
 .next-project-header {
   margin: 0 2rem 0 0;
-  color: black;
   font-family: "Muli", sans-serif;
   font-size: 2.4rem;
   line-height: 3rem;
   font-weight: 700;
-  color: black;
+  color: #2a2a2a;
 }
 
 .next-project-name {
@@ -384,29 +372,29 @@ ul.colUl.illuminations {
 
 .footer_container {
   margin: 12rem 0 2rem 0;
-  width: 50%;
+  width: 62.5%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer_copyright {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 50%;
+  width: 60%;
   font-family: Muli, sans-serif;
-  font-size: 1.6rem;
-  line-height: 2rem;
-  color: #2a2a2a;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #f26b38;
 }
 
 .footer_links {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 25%;
 }
 
 .footer_links_list {
@@ -420,9 +408,6 @@ ul.colUl.illuminations {
 }
 
 .footer_links_list a {
-  font-family: Muli, sans-serif;
-  font-size: 1.6rem;
-  line-height: 2.2rem;
   text-decoration: none;
   color: #f26b38;
 }
@@ -430,4 +415,8 @@ ul.colUl.illuminations {
 .footer_links_list a:hover {
   text-decoration: none;
   opacity: 50%;
+}
+
+.footer_links_list a img {
+  max-width: 1.5rem;
 }

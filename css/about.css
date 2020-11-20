@@ -1,0 +1,245 @@
+* {
+  font-size: 62.5%; /* 1rem == 10px */
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Muli", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Lora", serif;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar {
+  margin-top: 2.4rem;
+  display: flex;
+  width: 62.5%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_list {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.ryan_logo {
+  width: 65%;
+  align-self: flex-start;
+}
+
+.ryan_logo a {
+  font-family: "Lora", serif;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #f26b38;
+}
+
+.ryan_logo a:hover {
+  opacity: 50%;
+}
+
+.nav_work a {
+  font-family: Muli, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #f26b38;
+}
+
+.nav_work a:hover {
+  opacity: 50%;
+}
+
+.nav_about a {
+  margin-right: 0px;
+  font-family: Muli, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #f26b38;
+  align-self: flex-end;
+}
+
+.nav_about a:hover {
+  opacity: 50%;
+}
+
+.main-container {
+  width: 100%;
+  margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.two-col-container {
+  width: 62.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col-1 {
+  width: 40%;
+}
+
+.col-1 img {
+  width: 90%;
+  height: auto;
+}
+
+.col-2 {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+
+.col-2-header {
+  width: 100%;
+  font-family: "Muli", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 4.2rem;
+}
+
+.col-2-header .ryan-name {
+  width: 100%;
+  font-family: "Lora", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 4.2rem;
+  color: #f26b38;
+}
+
+.col-2 ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.col-2-li {
+  width: 100%;
+  margin-top: 2.4rem;
+  font-family: "Muli", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+  color: #808080;
+}
+
+.col-2-contact {
+  width: 100%;
+  margin-top: 4.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.col-2-contact-header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 4.2rem;
+  color: #2a2a2a;
+}
+
+.col-2-email-resume-container {
+  width: 100%;
+  margin-top: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.col-2-contact-email a,
+.col-2-contact-resume a {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.col-2-contact-email a {
+  margin-right: 3.6rem;
+}
+
+.col-2-contact-email img {
+  width: 2.6rem;
+  height: auto;
+  padding-right: 0.5rem;
+}
+
+.col-2-contact-resume img {
+  width: 2rem;
+  height: auto;
+  padding-right: 0.5rem;
+}
+
+.col-2-contact-email p,
+.col-2-contact-resume p {
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2rem;
+  color: #f26b38;
+}
+
+.col-2-contact-icons {
+  width: 35%;
+  margin-top: 2.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_container {
+  margin: 12rem 0 2rem 0;
+  width: 62.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer_copyright {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  font-family: Muli, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #f26b38;
+}
